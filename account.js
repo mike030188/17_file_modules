@@ -16,7 +16,7 @@ class Account {
         return this.#amount;
     }
 
-    withdrawMoney() {
+    withdrawMoney(amount) {
         if (this.#amount > amount) {
             this.#amount -= amount;
             console.log(`Hisobdan ${amount} yechildi va qoldiq ${this.#amount}$`);
@@ -43,3 +43,5 @@ class Account {
         console.log(`Hozirgi vaqt ${moment().format("YYYY MM DD HH:mm:ss")}`);
     }
 }
+
+module.exports = Account;
