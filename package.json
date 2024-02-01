@@ -1,0 +1,23 @@
+{
+  "name": "17.dars_filemodule",
+  "version": "1.0.0",
+  "description": "Learning how to create file modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike030188/17_file_modules.git"
+  },
+  "author": "mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike030188/17_file_modules/issues"
+  },
+  "homepage": "https://github.com/mike030188/17_file_modules#readme",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
